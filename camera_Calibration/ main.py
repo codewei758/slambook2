@@ -88,8 +88,10 @@ def undistortion(img, mtx, dist):
 if __name__ == '__main__':
 
     # cap = cv2.VideoCapture(0)
+    #本机地址
     robomaster.config.LOCAL_IP_STR = "192.168.31.107"
     tl_drone = robot.Drone()
+    #无人机组网模式 “sta”
     tl_drone.initialize(conn_type="sta")
 
     tl_camera = tl_drone.camera
