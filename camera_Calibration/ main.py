@@ -101,7 +101,7 @@ if __name__ == '__main__':
     tl_camera.set_resolution("high")
     tl_camera.set_bitrate(6)
     
-    # 下视摄像头
+    # 切换至下视摄像头
     # tl_camera.set_down_vision("1") 
 
     mtx = []
